@@ -19,13 +19,13 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 admin.py
 
 from django.contrib import admin
 from .models import BankLoan,BankLoanAdmin
 admin.site.register(BankLoan,BankLoanAdmin)
-'''
+
 
 models.py
 
@@ -42,13 +42,13 @@ class BankLoan(models.Model):
 
 class BankLoanAdmin(admin.ModelAdmin):
  list_display=('acc','ph','ifsc','loanno','adress','pan','adhar',)
-'''
+```
 
 
 
 ## OUTPUT
 ![alt text](<Screenshot (20).png>)
-
+![alt text](<Screenshot (22).png>)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
