@@ -48,7 +48,7 @@ class BankLoanAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 ![alt text](<Screenshot (20).png>)
-![alt text](<Screenshot (22).png>)
+![alt text](<Screenshot (21).png>)
 
 ## RESULT
 Thus the program for creating a database using ORM hass been executed successfully
